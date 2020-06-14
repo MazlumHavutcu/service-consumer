@@ -1,0 +1,7 @@
+com\micro\event\RemoteEvent.class
+com\micro\consumer\RabbitConfiguration.class
+com\micro\consumer\ConsumerRabbitListener.class
+com\micro\event\EventType.class
+com\micro\event\RemoteEventListener.class
+com\micro\consumer\Application.class
+com\micro\consumer\CustomerDto.class

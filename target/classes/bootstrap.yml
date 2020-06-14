@@ -1,0 +1,17 @@
+spring:
+  application:
+    name:  consumer
+  profiles:
+    active: ${environment:test}
+  cloud:
+    config:
+      uri: ${configUrl:http://127.0.0.1:8888}
+
+---
+spring:
+  application:
+    name:  consumer
+  profiles: test
+  cloud:
+    config:
+      uri: ${configUrl:http://127.0.0.1:8888}
